@@ -1,0 +1,48 @@
+html,
+body,
+.full-height {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+  padding-bottom: 160px;
+}
+
+.emoji {
+  height: 1.2em;
+}
+.input {
+  width: 100%;
+  height: 509px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 13px;
+  padding: 2px;
+  resize: vertical;
+  height: 509px;
+}
+.result {
+  padding: 2px 10px;
+  overflow: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+  height: 509px;
+}
+.result img {
+  max-width: 25%;
+}
+.footnotes {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+.footnotes-list {
+  padding-left: 2em;
+}
+.warning {
+  background-color: #ff8;
+  padding: 20px;
+  border-radius: 6px;
+}
+
